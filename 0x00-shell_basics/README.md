@@ -25,10 +25,12 @@
 
 12-file_type - Script that prints the type of the file named iamafile. The file iamafile should be in the "/tmp" directory when we will run your script.
 
-13-symbolic_link - Creates a symbolic link to /bin/ls, named __ls__. The symbolic link should be created in the current working directory.
+13-symbolic_link - Creates a symbolic link to "/bin/ls", named "__ls__". The symbolic link should be created in the current working directory.
 
 14-copy_html - Copies all the HTML files from the current working directory to the parent of the working directory, but only copies files that did not exist in the parent of the working directory or were newer than the versions in the parent of the working directory
 
-100-lets_move - Script that moves all files beginning with an uppercase letter to the directory /tmp/u
+100-lets_move - Script that moves all files beginning with an uppercase letter to the directory "/tmp/u"
 
-101-clean_emacs - Script that deletes all files in the current working directory that end with the character ~
+101-clean_emacs - Script that deletes all files in the current working directory that end with the character "~"
+
+102-tree - Script that creates the directories "welcome/", "welcome/to/" and "welcome/to/school" in the current directory.
