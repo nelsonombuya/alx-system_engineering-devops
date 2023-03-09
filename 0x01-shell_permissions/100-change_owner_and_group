@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -exec chown vincent:staff {} +
+find . -not -path "*/\.*" -exec chown vincent:staff {} +
